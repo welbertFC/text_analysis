@@ -24,9 +24,6 @@ class AnalyticalWord(Txt):
             print("{} == {:.2f}%".format(palavra, freuqnecia *100))
 
 
-
-
-
     def format(self):
 
             return f'{self.word_frequency()}\n' \
